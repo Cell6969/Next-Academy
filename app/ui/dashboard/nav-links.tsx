@@ -26,6 +26,23 @@ const links = [
     href: '/dashboard/customers',
     icon: UserGroupIcon,
   },
+  {
+    name: 'MainMenu',
+    href: '/',
+    icon: UserGroupIcon,
+    submenu: [
+      {
+        name: 'submenu1',
+        href: '/dashboard/mainmenu/submenu1',
+        icon: UserGroupIcon,
+      },
+      {
+        name: 'submenu2',
+        href: '/dashboard/mainmenu/submenu2',
+        icon: UserGroupIcon,
+      },
+    ],
+  },
 ];
 
 export default function NavLinks() {
